@@ -34,7 +34,7 @@ const suranna = localFont({
 });
 
 const fasthand = localFont({
-  src: "./fonts/Fasthand-regular.woff",
+  src: "./fonts/Fasthand-Regular.woff",
   variable: "--font-fasthand-regular",
   weight: "400"
 })

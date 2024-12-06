@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <div className="h-dvh border"></div>
     </>
   );
 }

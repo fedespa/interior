@@ -1,7 +1,7 @@
 function OutlineButton() {
   return (
     <div
-      className="rounded-full px-10 py-5 uppercase text-blue medium text-sm flex items-center gap-2"
+      className="rounded-full py-4 px-8 cursor-pointer uppercase text-blue medium text-sm flex items-center gap-2"
       style={{ border: "1px solid #0d1324" }}
     >
       <svg

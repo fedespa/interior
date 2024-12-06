@@ -6,7 +6,7 @@ import OutlineButton from "@/components/buttons/OutlineButton";
 
 function HeroSection() {
   return (
-    <section className="relative flex-grow">
+    <section className="relative flex-grow flex border justify-center">
       <Image
         alt="Fondo de sección"
         src={backgroundImage}

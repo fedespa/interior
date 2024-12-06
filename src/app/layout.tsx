@@ -1,17 +1,43 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Nav from "@/components/nav/Nav";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const interRegular = localFont({
+  src: "./fonts/Inter18pt-Regular.woff",
+  variable: "--font-inter-regular",
+  weight: "400",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const interMedium = localFont({
+  src: "./fonts/Inter18pt-Medium.woff",
+  variable: "--font-inter-medium",
+  weight: "500",
 });
+
+const interSemibold = localFont({
+  src: "./fonts/Inter18pt-Semibold.woff",
+  variable: "--font-inter-semibold",
+  weight: "600",
+});
+
+const interBold = localFont({
+  src: "./fonts/Inter18pt-Bold.woff",
+  variable: "--font-inter-bold",
+  weight: "700",
+});
+
+const suranna = localFont({
+  src: "./fonts/Suranna.woff",
+  variable: "--font-suranna-regular",
+  weight: "400",
+});
+
+const fasthand = localFont({
+  src: "./fonts/Fasthand-regular.woff",
+  variable: "--font-fasthand-regular",
+  weight: "400"
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,8 +52,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${interRegular.variable} ${interBold.variable} ${interMedium.variable} ${interSemibold.variable} ${suranna.variable} ${fasthand.variable} antialiased flex flex-col min-h-dvh`}
       >
+        <Nav />
         {children}
       </body>
     </html>

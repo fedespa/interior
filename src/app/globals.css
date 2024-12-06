@@ -17,5 +17,41 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-regular), sans-serif;
+}
+
+.bold {
+  font-family: var(--font-inter-bold), sans-serif;
+}
+
+.semibold {
+  font-family: var(--font-inter-semibold), sans-serif;
+}
+
+.medium {
+  font-family: var(--font-inter-medium), sans-serif ;
+}
+
+.text-blue {
+  color: #0d1324;
+}
+
+.suranna {
+  font-family: var(--font-suranna-regular), sans-serif;
+}
+
+.fasthand {
+  font-family: var(--font-fasthand-regular), sans-serif;
+}
+
+.text-green {
+  color: #15b86a;
+}
+
+.bg-green {
+  background-color: #15b86a;
+}
+
+.bg-blue {
+  background-color: #0d1324;
 }

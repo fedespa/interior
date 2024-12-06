@@ -16,7 +16,7 @@ const interMedium = localFont({
 });
 
 const interSemibold = localFont({
-  src: "./fonts/Inter18pt-Semibold.woff",
+  src: "./fonts/Inter18pt-SemiBold.woff",
   variable: "--font-inter-semibold",
   weight: "600",
 });
